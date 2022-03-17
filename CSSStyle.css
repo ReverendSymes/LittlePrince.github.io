@@ -1,0 +1,89 @@
+
+topbit {
+  background-color: #0A3080;
+  color: white;
+  padding: 5%;
+  text-align: left;
+  align-items: left;
+}
+  body {
+    background-color: #FCF8CC;
+  }
+
+  h1 {
+    color: #C57400;
+    margin-left: 20px;
+  }
+
+  #important {
+    color: #FCF8CC;
+    text-align: center;
+  }
+
+  .titles {
+    color: #C57400;
+    text-align: center;
+    font-style: oblique;
+  }
+
+  table {
+    border-color: #68A9DF;
+    border-style: groove;
+    text-align: center;
+  }
+
+  cen {
+    text-align: center;
+  }
+
+  td {
+    padding: 15px;
+  }
+
+  /* Screen checker to see if it is not on a widescreen device*/
+  @media only screen and (min-width: 600px) {
+  body {
+    background-color: #FCF8CC;
+    font-style: italic;
+    color: white;
+  }
+
+  .titles{
+    color: #0A3080
+  }
+
+  #important {
+    color: #68A9DF;
+  }
+
+# Type writer text effect
+""" HTML code to integrate it: <div class="demo-typewriter">
+  <span>This is a typewriter effect!</span>
+</div>"""
+
+.demo-typewriter span {
+  color: #262626;
+  overflow: hidden;
+  border-right: .10em solid #FF8D8D;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .4rem;
+  animation: demo-typewriter 3s steps(30, end), demo-cursor 1s step-end infinite;
+}
+@keyframes demo-typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes demo-cursor {
+  from, to {
+    border-color: transparent;
+}
+  50% {
+border-color: #FF8D8D;
+  }
+}

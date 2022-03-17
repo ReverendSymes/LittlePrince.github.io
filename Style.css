@@ -6,14 +6,14 @@ topbit {
   text-align: left;
   align-items: left;
 }
-  body {
+body {
     background-color: #FCF8CC;
-  }
+}
 
-  h1 {
-    color: #C57400;
-    margin-left: 20px;
-  }
+h1 {
+  color: #C57400;
+  margin-left: 20px;
+}
 
   #important {
     color: #FCF8CC;

@@ -1,0 +1,59 @@
+
+/* topbit {
+  background-color: #0A3080;
+  color: white;
+  padding: 5%;
+  text-align: left;
+  align-items: left;
+} */
+body {
+    background-color: #FCF8CC;
+}
+
+h1 {
+  color: #C57400;
+  margin-left: 20px;
+}
+
+  /* #important {
+    color: #C57400;
+  #important {
+    color: #FCF8CC;
+    text-align: center;
+  }
+
+  .titles {
+    color: #C57400;
+    text-align: center;
+    font-style: oblique;
+  }
+
+  table {
+    border-color: #68A9DF;
+    border-style: groove;
+    text-align: center;
+  }
+
+  cen {
+    text-align: center;
+  }
+
+  td {
+    padding: 15px;
+  } */
+
+  /* Screen checker to see if it is not on a widescreen device*/
+  /* @media only screen and (min-width: 600px) {
+  body {
+    background-color: #FCF8CC;
+    font-style: italic;
+    color: white;
+  }
+
+  .titles{
+    color: #0A3080
+  }
+
+  #important {
+    color: #68A9DF;
+  } */

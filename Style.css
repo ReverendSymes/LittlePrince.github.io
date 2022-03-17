@@ -1,11 +1,11 @@
 
-topbit {
+/* topbit {
   background-color: #0A3080;
   color: white;
   padding: 5%;
   text-align: left;
   align-items: left;
-}
+} */
 body {
     background-color: #FCF8CC;
 }
@@ -15,8 +15,10 @@ h1 {
   margin-left: 20px;
 }
 
-  #important {
+  /* #important {
     color: #C57400;
+  #important {
+    color: #FCF8CC;
     text-align: center;
   }
 
@@ -38,10 +40,10 @@ h1 {
 
   td {
     padding: 15px;
-  }
+  } */
 
   /* Screen checker to see if it is not on a widescreen device*/
-  @media only screen and (min-width: 600px) {
+  /* @media only screen and (min-width: 600px) {
   body {
     background-color: #FCF8CC;
     font-style: italic;
@@ -54,4 +56,4 @@ h1 {
 
   #important {
     color: #68A9DF;
-  }
+  } */
